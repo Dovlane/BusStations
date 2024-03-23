@@ -20,11 +20,11 @@ Implement displaying information about a line based on the given line mark. Info
 Implement a simulation of movement through the city transit network. The simulation should, based on the selected starting and ending stop, generate a route between them. The result of the simulation is an output text file named path_start_end.txt, where start and end are the codes of the stops between which the route is generated (e.g., path_363_584.txt). The output file consists of pairs of lines, where the first line indicates the line to transfer to (see example), and the second line is a series of stop codes through which that line passes, including the stop where it is necessary to board the vehicle and the stop where it is necessary to leave the vehicle. The series of codes should be separated by spaces. The format of the output file is given in the example below. The output file contains 2*N rows, where N is the number of lines that need to be used on the route.
 Plan three strategies for finding a route (the first strategy must be implemented, while the second and third strategies need to be implemented for the maximum number of points). The first strategy seeks any route between the starting and ending stop. The second strategy seeks the route with the fewest transfers needed between the starting and ending stop. The third strategy seeks a route that passes through all the important stops in the city transit network.
 
-Example:
-path_363_584.txt
-->16 363 298 360 
-16->EKO1
-360 703 534 582 584
+Example: <br />
+path_363_584.txt <br />
+->16 363 298 360 <br /> 
+16->EKO1 <br />
+360 703 534 582 584 <br />
 
 ## Interaction with the User
 Implement an interactive system with which the user can interact. The user interacts with the system by selecting one of the possible options that the system offers at that moment. Depending on the chosen option and its parameters, the program performs the corresponding operation and prints an output message or an error message. The error message should be as detailed as possible so that the user can easily resolve it. All parameters needed to perform an operation (input file name, line mark, etc.) should be requested from the user. An example of the interaction with the system is given below (user-**bold**, programme - *italic*):
