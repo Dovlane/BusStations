@@ -27,21 +27,21 @@ path_363_584.txt
 ## Interaction with the User
 Implement an interactive system with which the user can interact. The user interacts with the system by selecting one of the possible options that the system offers at that moment. Depending on the chosen option and its parameters, the program performs the corresponding operation and prints an output message or an error message. The error message should be as detailed as possible so that the user can easily resolve it. All parameters needed to perform an operation (input file name, line mark, etc.) should be requested from the user. An example of the interaction with the system is given below:
 
-Welcome to the city transit network simulator. Please choose an option:
-*1. Loading data about the city transit network
-2. End of work
-  1
-Please enter the path to the file with stops or press ENTER to load the default file (inputs/stops.txt):
-  (enter)
-The default file with stops has been loaded.
-Please enter the path to the file with city transit lines or press ENTER to load the default file (inputs/lines.txt):
-  inputs/new_lines.txt
-The city transit network has been successfully loaded. Please choose an option:
-1. Display information about the stop
-2. Display information about the city transit line
-3. Finding a route between two stops
-0. End of work
-2
-Please enter the line number whose information you want to display.
-  EKO1
-A file named line_EKO1.txt with basic information about line EKO1 has been generated.*
+*Welcome to the city transit network simulator. Please choose an option:*
+*1. Loading data about the city transit network*
+*2. End of work*
+  *1*
+*Please enter the path to the file with stops or press ENTER to load the default file (inputs/stops.txt):*
+*(enter)*
+*The default file with stops has been loaded.*
+*Please enter the path to the file with city transit lines or press ENTER to load the default file (inputs/lines.txt):*
+*inputs/new_lines.txt*
+*The city transit network has been successfully loaded. Please choose an option:*
+*1.  Display information about the stop*
+*2.  Display information about the city transit line*
+*3.  Finding a route between two stops*
+*4.  End of work*
+*2*
+*Please enter the line number whose information you want to display.*
+*EKO1*
+*A file named line_EKO1.txt with basic information about line EKO1 has been generated.*
