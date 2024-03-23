@@ -1,4 +1,6 @@
 # BusStations
+## Introduction
+BusStations was a project for OOP programming in C++ (subject at ETF).
 
 ## Functional Specification
 Implement a city transit network simulator in the C++ programming language. It is necessary to write a set of classes with corresponding methods, constructors, operators, and destructors for system realization.
