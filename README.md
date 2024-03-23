@@ -25,7 +25,7 @@ path_363_584.txt
 360 703 534 582 584
 
 ## Interaction with the User
-Implement an interactive system with which the user can interact. The user interacts with the system by selecting one of the possible options that the system offers at that moment. Depending on the chosen option and its parameters, the program performs the corresponding operation and prints an output message or an error message. The error message should be as detailed as possible so that the user can easily resolve it. All parameters needed to perform an operation (input file name, line mark, etc.) should be requested from the user. An example of the interaction with the system is given below:
+Implement an interactive system with which the user can interact. The user interacts with the system by selecting one of the possible options that the system offers at that moment. Depending on the chosen option and its parameters, the program performs the corresponding operation and prints an output message or an error message. The error message should be as detailed as possible so that the user can easily resolve it. All parameters needed to perform an operation (input file name, line mark, etc.) should be requested from the user. An example of the interaction with the system is given below (user-**bold**, programme - *italic*):
 
 *Welcome to the city transit network simulator. Please choose an option:*  <br />
 *1. Loading data about the city transit network*  <br />
