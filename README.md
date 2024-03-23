@@ -30,18 +30,18 @@ Implement an interactive system with which the user can interact. The user inter
 *Welcome to the city transit network simulator. Please choose an option:*  <br />
 *1. Loading data about the city transit network*  <br />
 *2. End of work*  <br />
- *1*  <br />
-*Please enter the path to the file with stops or press ENTER to load the default file (inputs/stops.txt):*  <br /><br />
- *(enter)*  <br />
+**1**  <br />
+*Please enter the path to the file with stops or press ENTER to load the default file (inputs/stops.txt):*  <br />
+**(enter)**  <br />
 *The default file with stops has been loaded.*  <br />
 *Please enter the path to the file with city transit lines or press ENTER to load the default file (inputs/lines.txt):*  <br />
- *inputs/new_lines.txt*  <br />
+**inputs/new_lines.txt**  <br />
 *The city transit network has been successfully loaded. Please choose an option:*  <br />
 *1.  Display information about the stop*  <br />
 *2.  Display information about the city transit line*  <br />
 *3.  Finding a route between two stops*  <br />
 *4.  End of work*  <br />
- *2*  <br />
+**2**  <br />
 *Please enter the line number whose information you want to display.*  <br />
- *EKO1*  <br />
+**EKO1**  <br />
 *A file named line_EKO1.txt with basic information about line EKO1 has been generated.*  <br />
