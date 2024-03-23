@@ -1,38 +1,45 @@
 ﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(534,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (oop-projektni-zadatak.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  CommandManager.cpp
   DeleteStationCommand.cpp
   Exception.cpp
-D:\Desktop\trenutniProgrami\oop-projektni-zadatak\oop-projektni-zadatak\Exception.cpp(7,53): warning C5043: 'MyErrorException::what': exception specification does not match previous declaration
-D:\Desktop\trenutniProgrami\oop-projektni-zadatak\oop-projektni-zadatak\Exception.h(18): message : see declaration of 'MyErrorException::what'
+D:\Desktop\Github\BusStations\oop-projektni-zadatak\Exception.cpp(7,53): warning C5043: 'MyErrorException::what': exception specification does not match previous declaration
+D:\Desktop\Github\BusStations\oop-projektni-zadatak\Exception.h(18): message : see declaration of 'MyErrorException::what'
+  Line.cpp
   LoadedCommand.cpp
   LoadingCommand.cpp
+  main.cpp
   NotLoadedCommand.cpp
   ShowLineCommand.cpp
   ShowPathCommand.cpp
   ShowStationCommand.cpp
   ShowTourCommand.cpp
+  Command.cpp
+  StringTrimmer.cpp
+  Station.cpp
   Terminal.cpp
+  TestCommand.cpp
   Traffic.cpp
-D:\Desktop\trenutniProgrami\oop-projektni-zadatak\oop-projektni-zadatak\Traffic.cpp(36,42): warning C4101: 'e': unreferenced local variable
-D:\Desktop\trenutniProgrami\oop-projektni-zadatak\oop-projektni-zadatak\Traffic.cpp(58,42): warning C4101: 'e': unreferenced local variable
-D:\Desktop\trenutniProgrami\oop-projektni-zadatak\oop-projektni-zadatak\Traffic.cpp(133,37): warning C4101: 'e': unreferenced local variable
-D:\Desktop\trenutniProgrami\oop-projektni-zadatak\oop-projektni-zadatak\Traffic.cpp(136,44): warning C4101: 'e': unreferenced local variable
-D:\Desktop\trenutniProgrami\oop-projektni-zadatak\oop-projektni-zadatak\Traffic.cpp(186,47): warning C4101: 'e': unreferenced local variable
-D:\Desktop\trenutniProgrami\oop-projektni-zadatak\oop-projektni-zadatak\Traffic.cpp(189,37): warning C4101: 'e': unreferenced local variable
-D:\Desktop\trenutniProgrami\oop-projektni-zadatak\oop-projektni-zadatak\Traffic.cpp(201,47): warning C4101: 'e': unreferenced local variable
-D:\Desktop\trenutniProgrami\oop-projektni-zadatak\oop-projektni-zadatak\Traffic.cpp(204,37): warning C4101: 'e': unreferenced local variable
-D:\Desktop\trenutniProgrami\oop-projektni-zadatak\oop-projektni-zadatak\Traffic.cpp(207,44): warning C4101: 'e': unreferenced local variable
-D:\Desktop\trenutniProgrami\oop-projektni-zadatak\oop-projektni-zadatak\Traffic.cpp(219,47): warning C4101: 'e': unreferenced local variable
-D:\Desktop\trenutniProgrami\oop-projektni-zadatak\oop-projektni-zadatak\Traffic.cpp(222,37): warning C4101: 'e': unreferenced local variable
-D:\Desktop\trenutniProgrami\oop-projektni-zadatak\oop-projektni-zadatak\Traffic.cpp(225,44): warning C4101: 'e': unreferenced local variable
-D:\Desktop\trenutniProgrami\oop-projektni-zadatak\oop-projektni-zadatak\Traffic.cpp(241,41): warning C4101: 'e': unreferenced local variable
-D:\Desktop\trenutniProgrami\oop-projektni-zadatak\oop-projektni-zadatak\Traffic.cpp(244,48): warning C4101: 'e': unreferenced local variable
-D:\Desktop\trenutniProgrami\oop-projektni-zadatak\oop-projektni-zadatak\Traffic.cpp(254,37): warning C4101: 'e': unreferenced local variable
-D:\Desktop\trenutniProgrami\oop-projektni-zadatak\oop-projektni-zadatak\Traffic.cpp(257,44): warning C4101: 'e': unreferenced local variable
-D:\Desktop\trenutniProgrami\oop-projektni-zadatak\oop-projektni-zadatak\Traffic.cpp(320,37): warning C4101: 'e': unreferenced local variable
-D:\Desktop\trenutniProgrami\oop-projektni-zadatak\oop-projektni-zadatak\Traffic.cpp(428,49): warning C4101: 'e': unreferenced local variable
-D:\Desktop\trenutniProgrami\oop-projektni-zadatak\oop-projektni-zadatak\Traffic.cpp(477,47): warning C4101: 'e': unreferenced local variable
-D:\Desktop\trenutniProgrami\oop-projektni-zadatak\oop-projektni-zadatak\Traffic.cpp(480,37): warning C4101: 'e': unreferenced local variable
-D:\Desktop\trenutniProgrami\oop-projektni-zadatak\oop-projektni-zadatak\Traffic.cpp(483,44): warning C4101: 'e': unreferenced local variable
-D:\Desktop\trenutniProgrami\oop-projektni-zadatak\oop-projektni-zadatak\Traffic.cpp(528,37): warning C4101: 'e': unreferenced local variable
+D:\Desktop\Github\BusStations\oop-projektni-zadatak\Traffic.cpp(36,42): warning C4101: 'e': unreferenced local variable
+D:\Desktop\Github\BusStations\oop-projektni-zadatak\Traffic.cpp(58,42): warning C4101: 'e': unreferenced local variable
+D:\Desktop\Github\BusStations\oop-projektni-zadatak\Traffic.cpp(133,37): warning C4101: 'e': unreferenced local variable
+D:\Desktop\Github\BusStations\oop-projektni-zadatak\Traffic.cpp(136,44): warning C4101: 'e': unreferenced local variable
+D:\Desktop\Github\BusStations\oop-projektni-zadatak\Traffic.cpp(186,47): warning C4101: 'e': unreferenced local variable
+D:\Desktop\Github\BusStations\oop-projektni-zadatak\Traffic.cpp(189,37): warning C4101: 'e': unreferenced local variable
+D:\Desktop\Github\BusStations\oop-projektni-zadatak\Traffic.cpp(201,47): warning C4101: 'e': unreferenced local variable
+D:\Desktop\Github\BusStations\oop-projektni-zadatak\Traffic.cpp(204,37): warning C4101: 'e': unreferenced local variable
+D:\Desktop\Github\BusStations\oop-projektni-zadatak\Traffic.cpp(207,44): warning C4101: 'e': unreferenced local variable
+D:\Desktop\Github\BusStations\oop-projektni-zadatak\Traffic.cpp(219,47): warning C4101: 'e': unreferenced local variable
+D:\Desktop\Github\BusStations\oop-projektni-zadatak\Traffic.cpp(222,37): warning C4101: 'e': unreferenced local variable
+D:\Desktop\Github\BusStations\oop-projektni-zadatak\Traffic.cpp(225,44): warning C4101: 'e': unreferenced local variable
+D:\Desktop\Github\BusStations\oop-projektni-zadatak\Traffic.cpp(241,41): warning C4101: 'e': unreferenced local variable
+D:\Desktop\Github\BusStations\oop-projektni-zadatak\Traffic.cpp(244,48): warning C4101: 'e': unreferenced local variable
+D:\Desktop\Github\BusStations\oop-projektni-zadatak\Traffic.cpp(254,37): warning C4101: 'e': unreferenced local variable
+D:\Desktop\Github\BusStations\oop-projektni-zadatak\Traffic.cpp(257,44): warning C4101: 'e': unreferenced local variable
+D:\Desktop\Github\BusStations\oop-projektni-zadatak\Traffic.cpp(320,37): warning C4101: 'e': unreferenced local variable
+D:\Desktop\Github\BusStations\oop-projektni-zadatak\Traffic.cpp(428,49): warning C4101: 'e': unreferenced local variable
+D:\Desktop\Github\BusStations\oop-projektni-zadatak\Traffic.cpp(477,47): warning C4101: 'e': unreferenced local variable
+D:\Desktop\Github\BusStations\oop-projektni-zadatak\Traffic.cpp(480,37): warning C4101: 'e': unreferenced local variable
+D:\Desktop\Github\BusStations\oop-projektni-zadatak\Traffic.cpp(483,44): warning C4101: 'e': unreferenced local variable
+D:\Desktop\Github\BusStations\oop-projektni-zadatak\Traffic.cpp(528,37): warning C4101: 'e': unreferenced local variable
   Generating Code...
-  oop-projektni-zadatak.vcxproj -> D:\Desktop\trenutniProgrami\oop-projektni-zadatak\x64\Debug\oop-project.exe
+  oop-projektni-zadatak.vcxproj -> D:\Desktop\Github\BusStations\x64\Debug\oop-project.exe
